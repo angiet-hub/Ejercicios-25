@@ -5,6 +5,23 @@
   .container input[type=checkbox] {
     width: 100%;
     opacity: 0;
-    position: absolute; }
+    position: absolute;
+    cursor: pointer; }
+  .container label {
+    border: 1px solid red;
+    background-color: pink;
+    width: 100%;
+    display: block; }
+  .container section {
+    display: none; }
+
+#input-one:checked ~ .section-one {
+  display: block; }
+
+#input-two:checked ~ .section-two {
+  display: block; }
+
+#input-three:checked ~ .section-three {
+  display: block; }
 
 /*# sourceMappingURL=main.css.map */
