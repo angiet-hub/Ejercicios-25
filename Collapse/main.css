@@ -1,0 +1,10 @@
+.container {
+  border: 1px solid red;
+  width: 50%;
+  margin: 0 auto; }
+  .container input[type=checkbox] {
+    width: 100%;
+    opacity: 0;
+    position: absolute; }
+
+/*# sourceMappingURL=main.css.map */

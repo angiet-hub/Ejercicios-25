@@ -1,0 +1,39 @@
+.abrir {
+    position: absolute;
+    right: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+#box {
+    width:237px;
+    height: 100%;
+    background-color: green;
+    position:absolute;
+    left:0;
+    transform: translatex(-237px);
+    transition: .2s;
+    top: 0;
+
+    a {
+        position: absolute;
+        right: 10px;
+    }
+
+    div {
+    display:flex;
+    flex-direction: column;
+
+        span {
+            margin:10px;
+        }
+    }
+}
+
+#box:target {
+    transform: translatex(0px);
+}
