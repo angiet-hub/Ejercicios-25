@@ -1,0 +1,38 @@
+.btn {
+    width: 223px;
+    height: 74px;
+    border-radius: 30px;
+    border: none;  
+}
+.one {
+    background-image: linear-gradient(to top left, rgb(137, 204, 137), lightblue, pink);
+}
+
+.one:hover {
+    background-size: 521px;
+}
+
+.two {
+    background-image: linear-gradient(to top, pink, rgb(180, 240, 180));
+}
+
+.two:hover {
+    background-image: linear-gradient(to top, pink 60%, #b4f0b4);
+}
+
+.three {
+    background-image: linear-gradient(to top left, rgb(137, 204, 137), lightblue, pink);
+    background-size: 500px;
+}
+
+.three:hover {
+    background-position: right center;
+}
+
+.four {
+    background-image: linear-gradient(to top right, pink, rgb(114, 114, 206), rgb(126, 185, 126));
+}
+
+.four:hover {
+    background-image: linear-gradient(to top right, pink,#7eb97e);
+}

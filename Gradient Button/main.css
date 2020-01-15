@@ -1,0 +1,32 @@
+.btn {
+  width: 223px;
+  height: 74px;
+  border-radius: 30px;
+  border: none; }
+
+.one {
+  background-image: linear-gradient(to top left, #89cc89, lightblue, pink); }
+
+.one:hover {
+  background-size: 521px; }
+
+.two {
+  background-image: linear-gradient(to top, pink, #b4f0b4); }
+
+.two:hover {
+  background-image: linear-gradient(to top, pink 60%, #b4f0b4); }
+
+.three {
+  background-image: linear-gradient(to top left, #89cc89, lightblue, pink);
+  background-size: 500px; }
+
+.three:hover {
+  background-position: right center; }
+
+.four {
+  background-image: linear-gradient(to top right, pink, #7272ce, #7eb97e); }
+
+.four:hover {
+  background-image: linear-gradient(to top right, pink, #7eb97e); }
+
+/*# sourceMappingURL=main.css.map */
